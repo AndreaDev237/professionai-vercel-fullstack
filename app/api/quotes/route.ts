@@ -47,7 +47,7 @@ const quotes : Array<quotes> = [
     const randomQuote = sourceArray[randomIndex];
     
     // Simulazione di un ritardo di rete
-    await new Promise(resolve => setTimeout(resolve, 500));
+    //await new Promise(resolve => setTimeout(resolve, 500));
     
     // Restituisci la citazione come JSON
     return Response.json(randomQuote, {
