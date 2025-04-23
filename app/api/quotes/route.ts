@@ -17,7 +17,7 @@ const quotes = [
     const randomQuote = quotes[randomIndex];
     
     // Simulazione di un ritardo di rete
-    await new Promise(resolve => setTimeout(resolve, 500));
+    //await new Promise(resolve => setTimeout(resolve, 500));
     
     // Nel nuovo App Router, restituiamo direttamente un oggetto Response
     return Response.json(randomQuote, {
